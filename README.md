@@ -29,5 +29,6 @@ all files follow the following format: `A_sz_B_fr_C_w_D_sz_E_e_F_lr_G_H_I_J_sigm
 | J  | activation function used to train SOM (euclidean/manhattan) |
 | K  | neighborhood radius (a.k.a. sigma)  |
 
+* Note D and J mean the same thing
 # Licence
 Licensed under the MIT License, Copyright ©Paulius Gasiukevičius (2021-present)
