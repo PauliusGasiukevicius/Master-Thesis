@@ -13,22 +13,20 @@ Source code and datasets of my master thesis "Clustering and Visualization of Ph
 
 # Clustering Sample results
 Some of clustering visualization results are provided in `/results` directory
-all files follow the following format: `A_sz_B_fr_C_w_D_sz_E_e_F_lr_G_H_I_J_sigma_K` where meaning of capital letter variables like `A` is given in table below
+all files follow the following format: `A_sz_B_fr_C_w_D_sz_E_e_F_lr_G_H_I_D_sigma_J` where meaning of capital letter variables like `A` is given in table below
 
 | Variable  | Meaning |
 | ------------- | ------------- |
 | A  | limit of emails of each class (phishing/spam/ham) in dataset slice  |
 | B  | frequency cut-off - how frequent some word root must be in whole dataset to be included in attributes |
 | C  | minimum amount of frequent words that must be present in each dataset sample to be included in training samples (helps to filter non-english emails) |
-| D  | distance calculation used to train SOM (euclidean/manhattan) |
+| D  | distance calculation (activation function) used to train SOM (euclidean/manhattan) |
 | E  | length of SOM output neurons matrix side |
 | F  | number of epochs network was trained on  |
 | G  | learning rate used during SOM training  |
 | H  | neighborhood function used to train SOM (gaussian/bubble/mexical hat)  |
 | I  | topology of SOM output neurons (rectangular/hexagonal)  |
-| J  | activation function used to train SOM (euclidean/manhattan) |
-| K  | neighborhood radius (a.k.a. sigma)  |
+| J  | neighborhood radius (a.k.a. sigma)  |
 
-* Note D and J mean the same thing
 # Licence
 Licensed under the MIT License, Copyright ©Paulius Gasiukevičius (2021-present)
